@@ -1,3 +1,8 @@
+# Unreleased
+
+## Features
+- **PXPIPE**: native Token Saver integration — in-process multimodal prompt compression via `pxpipe-proxy/transform` (Claude-format bodies imaged as dense PNGs before dispatch). Managed install into `DATA_DIR/pxpipe` with one-click Install/Repair from the dashboard, health checklist, `/api/pxpipe/*` endpoints (status/stats/logs/health/install/start/stop/restart), per-request Activated/Skipped annotation in Request Details, and a PXPIPE dashboard page with estimated token savings, 30-day timeline and event history. Configurable size threshold bypasses small prompts; fail-open like every other saver.
+
 # v0.5.20 (2026-07-07)
 
 ## Features
